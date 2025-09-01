@@ -17,7 +17,7 @@ function renderTodos() {
   // 기존 todo list를 초기화 -> 추가했을 때 누적 안되게
   // 여러분들은 todoList =/= todos(JSON)
   todoList.innerHTML = '';
-
+  
   // todos 배열을 반복 돌려서 목록을 생성
   todos.forEach((todo, index) => {
     // todos의 반복을 돌면 내부 element가 있을건데, 그때마다
